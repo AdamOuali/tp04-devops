@@ -1,0 +1,8 @@
+pipeline:
+  stages:
+    - name: Build
+      jobs:
+        - name: Build Job
+          steps:
+            - name: Build application
+              uses: actions/checkout@v4
